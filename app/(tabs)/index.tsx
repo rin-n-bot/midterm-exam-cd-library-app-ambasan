@@ -108,7 +108,7 @@ export default function App() {
       <View style={s.stat}>
         <Text style={[s.st, { fontSize: 20, marginBottom: 10 }]}> Overall Statistics</Text>
         <Text style={s.st}>Income: PHP {inc}</Text>
-        <Text style={s.st}>Total: {history}</Text>
+        <Text style={s.st}>Total Borrowed: {history}</Text>
       </View>
     );
     return (
